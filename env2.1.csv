@@ -1,0 +1,440 @@
+Unnamed: 0,AppName,TCID,STATUS,EXEDATE,ENV|CODE|DATA|REQ,TestCaseID,WeekDay,Special,Day Weight,Function,Defect,mWeekDay,mSpecial,Day,Month,mSTATUS,mFunction,mDefect,newrun2.1
+732,ICGS,1,Fail,1/1/2016,PROD2.0|Not compatible with IOS 13|Update not found|Updating,10733,Tuesday,New Year,6.0,Promo,0.0,1,5.0,1,1,0,8,,2.1
+736,ICGS,5,Fail,1/5/2016,"DEV2.0|print(""a[10]"")|No varible named a|retrive data",10737,Saturday,0,3.0,login,0.0,3,0.0,5,1,0,4,,2.1
+739,ICGS,Pass,Fail,1/8/2016,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",10740,Tuesday,0,1.0,login,0.0,1,0.0,8,1,0,4,,2.1
+741,ICGS,Pass,Fail,1/10/2016,DEV2.0|plt.show()|plt:undefined name|displaying,10742,Thursday,0,1.0,Tag,0.0,1,0.0,10,1,0,3,,2.1
+744,ICGS,13,Fail,1/13/2016,UAT2.0|import matplotlib.pyplot as plt|matplot: Package not found|importing,10745,Sunday,0,4.0,End to End,0.0,4,0.0,13,1,0,1,,2.1
+749,ICGS,18,Fail,1/18/2016,DEV2.0|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data,10750,Friday,0,3.0,Register,0.0,3,0.0,18,1,0,7,,2.1
+750,ICGS,Pass,Fail,1/19/2016,"PROD2.0| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly",10751,Saturday,0,3.0,Cart Updation,0.0,3,0.0,19,1,0,2,,2.1
+754,ICGS,Pass,Fail,1/23/2016,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,10755,Wednesday,0,1.0,login,0.0,1,0.0,23,1,0,4,,2.1
+756,ICGS,Pass,Fail,1/25/2016,"DEV2.0|print(""sum is"",a+b)|No varibles named a and b|retrive data",10757,Friday,0,3.0,End to End,0.0,3,0.0,25,1,0,1,,2.1
+757,ICGS,Pass,Fail,1/26/2016,PROD2.0|print(('python')*a)|a: variable undefined|retrieve data,10758,Saturday,0,3.0,Badging,0.0,3,0.0,26,1,0,9,,2.1
+759,ICGS,Pass,Fail,1/28/2016,STG2.0| if i>5 |SyntaxError: invalid syntax |decision control,10760,Monday,0,1.0,Promo,0.0,1,0.0,28,1,0,8,,2.1
+764,ICGS,33,Fail,2/2/2016,PROD2.0|print(('python')*a)|a: variable undefined|retrieve data,10765,Saturday,0,3.0,Cart Updation,0.0,3,0.0,2,2,0,2,,2.1
+770,ICGS,Pass,Fail,2/8/2016,UAT2.0|form.submit(name[0])|Array index out of bounds|Need to specify name,10771,Friday,0,3.0,Unsubscribe,0.0,3,0.0,8,2,0,10,,2.1
+772,ICGS,41,Fail,2/10/2016,DEV2.0|df.read_csv(...)|file not found|Importing file,10773,Sunday,0,4.0,Unsubscribe,0.0,4,0.0,10,2,0,10,,2.1
+773,ICGS,42,Fail,2/11/2016,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",10774,Monday,0,1.0,Custom Badging,0.0,1,0.0,11,2,0,5,,2.1
+776,ICGS,Pass,Fail,2/14/2016,"PROD2.0| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly",10777,Thursday,0,1.0,Custom Badging,0.0,1,0.0,14,2,0,5,,2.1
+783,ICGS,52,Fail,2/21/2016,"UAT2.0| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading",10784,Thursday,0,1.0,Badging,0.0,1,0.0,21,2,0,9,,2.1
+786,ICGS,Pass,Fail,2/24/2016,PROD2.0|np.arange(8)|numpy array out of range|looping,10787,Sunday,0,4.0,Unsubscribe,0.0,4,0.0,24,2,0,10,,2.1
+788,ICGS,57,Fail,2/26/2016,DEV2.0|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data,10789,Tuesday,0,1.0,Promo,0.0,1,0.0,26,2,0,8,,2.1
+789,ICGS,Pass,Fail,2/27/2016,"PROD2.0| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly",10790,Wednesday,0,1.0,Badging,0.0,1,0.0,27,2,0,9,,2.1
+791,ICGS,Pass,Fail,2/29/2016,UAT2.0|form.submit(name[0])|Array index out of bounds|Need to specify name,10792,Friday,0,3.0,Badging,0.0,3,0.0,29,2,0,9,,2.1
+792,ICGS,61,Fail,3/1/2016,DEV2.0|import seaborn as sns|seaborn: package not found|importing,10793,Saturday,0,3.0,Custom Badging,0.0,3,0.0,1,3,0,5,,2.1
+793,ICGS,62,Fail,3/2/2016,"PROD2.0|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data",10794,Sunday,0,4.0,Subscribe,0.0,4,0.0,2,3,0,6,,2.1
+795,ICGS,64,Fail,3/4/2016,UAT2.0|import pandasa as pd|pandasa: Package not found|importing,10796,Tuesday,0,1.0,Subscribe,0.0,1,0.0,4,3,0,6,,2.1
+796,ICGS,65,Fail,3/5/2016,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",10797,Wednesday,0,1.0,End to End,0.0,1,0.0,5,3,0,1,,2.1
+797,ICGS,Pass,Fail,3/6/2016,UAT2.0|fun(20)|arguments undefined in function|pass by value ,10798,Thursday,0,1.0,Cart Updation,0.0,1,0.0,6,3,0,2,,2.1
+803,ICGS,Pass,Fail,3/12/2016,"DEV2.0|plt.plot(x,y)|x,y : undefined variables|plotting",10804,Wednesday,0,1.0,login,0.0,1,0.0,12,3,0,4,,2.1
+808,ICGS,Pass,Fail,3/17/2016,UAT2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise,10809,Monday,0,1.0,Tag,0.0,1,0.0,17,3,0,3,,2.1
+809,ICGS,Pass,Fail,3/18/2016,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,10810,Tuesday,0,1.0,login,0.0,1,0.0,18,3,0,4,,2.1
+812,ICGS,81,Fail,3/21/2016,"DEV2.0|plt.plot(x,y)|x,y : undefined variables|plotting",10813,Friday,0,3.0,End to End,0.0,3,0.0,21,3,0,1,,2.1
+814,ICGS,Pass,Fail,3/23/2016,STG2.0|for x in range(10)|List out of index [15]|looping,10815,Sunday,0,4.0,Cart Updation,0.0,4,0.0,23,3,0,2,,2.1
+815,ICGS,Pass,Fail,3/24/2016,STG2.0| if i>5 |SyntaxError: invalid syntax |decision control,10816,Monday,0,1.0,Custom Badging,0.0,1,0.0,24,3,0,5,,2.1
+819,ICGS,Pass,Fail,3/28/2016,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",10820,Friday,0,3.0,Unsubscribe,0.0,3,0.0,28,3,0,10,,2.1
+821,ICGS,Pass,Fail,3/30/2016,DEV2.0|plt.show()|displaying graph without plotting it|plotting,10822,Sunday,0,4.0,login,0.0,4,0.0,30,3,0,4,,2.1
+825,ICGS,Pass,Fail,4/3/2016,UAT2.0|form.submit(name[0])|Array index out of bounds|Need to specify name,10826,Thursday,0,1.0,Cart Updation,0.0,1,0.0,3,4,0,2,,2.1
+826,ICGS,Pass,Fail,4/4/2016,UAT2.0|fun(20)|arguments undefined in function|pass by value ,10827,Friday,0,3.0,Badging,0.0,3,0.0,4,4,0,9,,2.1
+828,ICGS,97,Fail,4/6/2016,DEV2.0|df.read_csv(...)|file not found|Importing file,10829,Sunday,0,4.0,Tag,0.0,4,0.0,6,4,0,3,,2.1
+835,ICGS,104,Fail,4/13/2016,PROD2.0|print(('python')*a)|a: variable undefined|retrieve data,10836,Sunday,0,4.0,Unsubscribe,0.0,4,0.0,13,4,0,10,,2.1
+840,ICGS,109,Fail,4/18/2016,"STG2.0|for i,j in range()|range expected 1 arguments|parsing",10841,Friday,0,3.0,Tag,0.0,3,0.0,18,4,0,3,,2.1
+848,ICGS,Pass,Fail,4/26/2016,UAT2.0|import pandas as pd|package not found|importing,10849,Saturday,0,3.0,Cart Updation,0.0,3,0.0,26,4,0,2,,2.1
+849,ICGS,118,Fail,4/27/2016,PROD2.0|import seaborn as sns|seaborn: Package not found|Coloring,10850,Sunday,0,4.0,End to End,0.0,4,0.0,27,4,0,1,,2.1
+850,ICGS,Pass,Fail,4/28/2016,PROD2.0|plt.show()|matplotlib is not imported|visualising,10851,Monday,0,1.0,Promo,0.0,1,0.0,28,4,0,8,,2.1
+853,ICGS,Pass,Fail,5/1/2016,STG2.0|for x in range(10)|List out of index [15]|looping,10854,Thursday,0,1.0,End to End,0.0,1,0.0,1,5,0,1,,2.1
+858,ICGS,Pass,Fail,5/6/2016,"DEV2.0| for x,d in data.Height, data.shape[0]| too many values to unpack|looping",10859,Tuesday,0,1.0,Badging,0.0,1,0.0,6,5,0,9,,2.1
+860,ICGS,129,Fail,5/8/2016,DEV2.0|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data,10861,Thursday,0,1.0,Subscribe,0.0,1,0.0,8,5,0,6,,2.1
+872,ICGS,141,Fail,5/20/2016,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",10873,Tuesday,0,1.0,Tag,0.0,1,0.0,20,5,0,3,,2.1
+874,ICGS,143,Fail,5/22/2016,"STG2.0|for i,j in range()|range expected 1 arguments|parsing",10875,Thursday,0,1.0,Cart Updation,0.0,1,0.0,22,5,0,2,,2.1
+876,ICGS,145,Fail,5/24/2016,STG2.0|while var >! 0:  |invalid operator|validation,10877,Saturday,0,3.0,Subscribe,0.0,3,0.0,24,5,0,6,,2.1
+877,ICGS,Pass,Fail,5/25/2016,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,10878,Sunday,0,4.0,Register,0.0,4,0.0,25,5,0,7,,2.1
+878,ICGS,Pass,Fail,5/26/2016,STG2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|importing,10879,Monday,0,1.0,Custom Badging,0.0,1,0.0,26,5,0,5,,2.1
+884,ICGS,153,Fail,6/1/2016,PROD2.0|import seaborn as sns|seaborn: Package not found|Coloring,10885,Sunday,0,4.0,Cart Updation,0.0,4,0.0,1,6,0,2,,2.1
+885,ICGS,154,Fail,6/2/2016,STG2.0| if i>5 |SyntaxError: invalid syntax |decision control,10886,Monday,0,1.0,Promo,0.0,1,0.0,2,6,0,8,,2.1
+886,ICGS,155,Fail,6/3/2016,"DEV2.0|for val in ""string"": |val : undefined variable|iteration",10887,Tuesday,0,1.0,Custom Badging,0.0,1,0.0,3,6,0,5,,2.1
+887,ICGS,Pass,Fail,6/4/2016,PROD2.0|plt.show()|matplotlib is not imported|visualising,10888,Wednesday,0,1.0,login,0.0,1,0.0,4,6,0,4,,2.1
+888,ICGS,Pass,Fail,6/5/2016,"DEV2.0|print(data.[""Name""])|No column named ""Name""|retrive data",10889,Thursday,0,1.0,Promo,0.0,1,0.0,5,6,0,8,,2.1
+890,ICGS,159,Fail,6/7/2016,PROD2.0|Not compatible with IOS 13|Update not found|Updating,10891,Saturday,0,3.0,Tag,0.0,3,0.0,7,6,0,3,,2.1
+891,ICGS,Pass,Fail,6/8/2016,PROD2.0|np.arange(8)|numpy array out of range|looping,10892,Sunday,0,4.0,Tag,0.0,4,0.0,8,6,0,3,,2.1
+893,ICGS,Pass,Fail,6/10/2016,"PROD2.0|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data",10894,Tuesday,0,1.0,Badging,0.0,1,0.0,10,6,0,9,,2.1
+897,ICGS,166,Fail,6/14/2016,DEV2.0|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data,10898,Saturday,0,3.0,Unsubscribe,0.0,3,0.0,14,6,0,10,,2.1
+898,ICGS,167,Fail,6/15/2016,UAT2.0|import pandasa as pd|pandasa: Package not found|importing,10899,Sunday,0,4.0,login,0.0,4,0.0,15,6,0,4,,2.1
+900,ICGS,Pass,Fail,6/17/2016,DEV2.0|import seaborn as sns|seaborn: package not found|importing,10901,Tuesday,0,1.0,Badging,0.0,1,0.0,17,6,0,9,,2.1
+902,ICGS,Pass,Fail,6/19/2016,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",10903,Thursday,0,1.0,End to End,0.0,1,0.0,19,6,0,1,,2.1
+903,ICGS,Pass,Fail,6/20/2016,"DEV2.0|print(""sum is"",a+b)|No varibles named a and b|retrive data",10904,Friday,0,3.0,Cart Updation,0.0,3,0.0,20,6,0,2,,2.1
+905,ICGS,174,Fail,6/22/2016,UAT2.0|import pandasa as pd|pandasa: Package not found|importing,10906,Sunday,0,4.0,Subscribe,0.0,4,0.0,22,6,0,6,,2.1
+906,ICGS,175,Fail,6/23/2016,DEV2.0|plt.show()|displaying graph without plotting it|plotting,10907,Monday,0,1.0,Cart Updation,0.0,1,0.0,23,6,0,2,,2.1
+907,ICGS,Pass,Fail,6/24/2016,UAT2.0|form.submit(name[0])|Array index out of bounds|Need to specify name,10908,Tuesday,0,1.0,Register,0.0,1,0.0,24,6,0,7,,2.1
+909,ICGS,178,Fail,6/26/2016,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",10910,Thursday,0,1.0,Badging,0.0,1,0.0,26,6,0,9,,2.1
+910,ICGS,179,Fail,6/27/2016,"DEV2.0|print(data.[""Name""])|No column named ""Name""|retrive data",10911,Friday,0,3.0,Subscribe,0.0,3,0.0,27,6,0,6,,2.1
+915,ICGS,184,Fail,7/2/2016,"PROD2.0| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly",10916,Wednesday,0,1.0,Unsubscribe,0.0,1,0.0,2,7,0,10,,2.1
+916,ICGS,Pass,Fail,7/3/2016,STG2.0| if i>5 |SyntaxError: invalid syntax |decision control,10917,Thursday,0,1.0,Tag,0.0,1,0.0,3,7,0,3,,2.1
+917,ICGS,186,Fail,7/4/2016,DEV2.0|import seaborn as sns|seaborn: package not found|importing,10918,Friday,Independence Day,7.0,Subscribe,0.0,3,4.0,4,7,0,6,,2.1
+922,ICGS,Pass,Fail,7/9/2016,PROD2.0|plt.show()|matplotlib is not imported|visualising,10923,Wednesday,0,1.0,Unsubscribe,0.0,1,0.0,9,7,0,10,,2.1
+924,ICGS,Pass,Fail,7/11/2016,"PROD2.0| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter",10925,Friday,0,3.0,End to End,0.0,3,0.0,11,7,0,1,,2.1
+925,ICGS,Pass,Fail,7/12/2016,DEV2.0|import seaborn as sns|seaborn: package not found|importing,10926,Saturday,0,3.0,Badging,0.0,3,0.0,12,7,0,9,,2.1
+927,ICGS,Pass,Fail,7/14/2016,"UAT2.0| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading",10928,Monday,0,1.0,login,0.0,1,0.0,14,7,0,4,,2.1
+928,ICGS,197,Fail,7/15/2016,PROD2.0|np.arange(8)|numpy array out of range|looping,10929,Tuesday,0,1.0,Badging,0.0,1,0.0,15,7,0,9,,2.1
+929,ICGS,198,Fail,7/16/2016,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",10930,Wednesday,0,1.0,login,0.0,1,0.0,16,7,0,4,,2.1
+931,ICGS,Pass,Fail,7/18/2016,STG2.0|for i in Age|list index out of range|looping,10932,Friday,0,3.0,Unsubscribe,0.0,3,0.0,18,7,0,10,,2.1
+934,ICGS,203,Fail,7/21/2016,"DEV2.0|print(""a[10]"")|No varible named a|retrive data",10935,Monday,0,1.0,Badging,0.0,1,0.0,21,7,0,9,,2.1
+935,ICGS,Pass,Fail,7/22/2016,DEV2.0|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming,10936,Tuesday,0,1.0,End to End,0.0,1,0.0,22,7,0,1,,2.1
+937,ICGS,206,Fail,7/24/2016,STG2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|importing,10938,Thursday,0,1.0,Tag,0.0,1,0.0,24,7,0,3,,2.1
+939,ICGS,208,Fail,7/26/2016,DEV2.0|df.read_csv(...)|file not found|Importing file,10940,Saturday,0,3.0,login,0.0,3,0.0,26,7,0,4,,2.1
+941,ICGS,Pass,Fail,7/28/2016,DEV2.0|import seaborn as sns|seaborn: package not found|importing,10942,Monday,0,1.0,Badging,0.0,1,0.0,28,7,0,9,,2.1
+943,ICGS,212,Fail,7/30/2016,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",10944,Wednesday,0,1.0,Subscribe,0.0,1,0.0,30,7,0,6,,2.1
+944,ICGS,213,Fail,7/31/2016,PROD2.0|plt.show()|matplotlib is not imported|visualising,10945,Thursday,0,1.0,Register,0.0,1,0.0,31,7,0,7,,2.1
+946,ICGS,215,Fail,8/2/2016,"DEV2.0|plt.plot(x,y)|x,y : undefined variables|plotting",10947,Saturday,0,3.0,Badging,0.0,3,0.0,2,8,0,9,,2.1
+950,ICGS,219,Fail,8/6/2016,DEV2.0|import seaborn as sns|seaborn: package not found|importing,10951,Wednesday,0,1.0,Tag,0.0,1,0.0,6,8,0,3,,2.1
+951,ICGS,220,Fail,8/7/2016,PROD2.0|import seaborn as sns|seaborn: Package not found|Coloring,10952,Thursday,0,1.0,Register,0.0,1,0.0,7,8,0,7,,2.1
+952,ICGS,Pass,Fail,8/8/2016,"UAT2.0|return func(*args, **kw)|InterruptedError|Handle Interrupt Error",10953,Friday,0,3.0,End to End,0.0,3,0.0,8,8,0,1,,2.1
+953,ICGS,222,Fail,8/9/2016,UAT2.0|fun(20)|arguments undefined in function|pass by value ,10954,Saturday,0,3.0,End to End,0.0,3,0.0,9,8,0,1,,2.1
+963,ICGS,Pass,Fail,8/19/2016,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",10964,Tuesday,0,1.0,End to End,0.0,1,0.0,19,8,0,1,,2.1
+966,ICGS,235,Fail,8/22/2016,PROD2.0|Not compatible with IOS 13|Update not found|Updating,10967,Friday,0,3.0,Register,0.0,3,0.0,22,8,0,7,,2.1
+968,ICGS,Pass,Fail,8/24/2016,PROD2.0|plt.show()|matplotlib is not imported|visualising,10969,Sunday,0,4.0,Tag,0.0,4,0.0,24,8,0,3,,2.1
+974,ICGS,243,Fail,8/30/2016,"DEV2.0| print ""Ok""|Missing parentheses in call to 'print'| printing",10975,Saturday,0,3.0,Register,0.0,3,0.0,30,8,0,7,,2.1
+975,ICGS,Pass,Fail,8/31/2016,STG2.0|for x in range(10)|List out of index [15]|looping,10976,Sunday,0,4.0,Custom Badging,0.0,4,0.0,31,8,0,5,,2.1
+977,ICGS,246,Fail,9/2/2016,UAT2.0|import pandas as pd|package not found|importing,10978,Tuesday,0,1.0,Tag,0.0,1,0.0,2,9,0,3,,2.1
+979,ICGS,248,Fail,9/4/2016,"UAT2.0|return func(*args, **kw)|InterruptedError|Handle Interrupt Error",10980,Thursday,0,1.0,Custom Badging,0.0,1,0.0,4,9,0,5,,2.1
+983,ICGS,Pass,Fail,9/8/2016,"PROD2.0| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly",10984,Monday,0,1.0,Unsubscribe,0.0,1,0.0,8,9,0,10,,2.1
+985,ICGS,254,Fail,9/10/2016,"DEV2.0|for val in ""string"": |val : undefined variable|iteration",10986,Wednesday,0,1.0,Promo,0.0,1,0.0,10,9,0,8,,2.1
+986,ICGS,Pass,Fail,9/11/2016,"DEV2.0|print(""sum is"",a+b)|No varibles named a and b|retrive data",10987,Thursday,0,1.0,Cart Updation,0.0,1,0.0,11,9,0,2,,2.1
+988,ICGS,257,Fail,9/13/2016,"UAT2.0| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading",10989,Saturday,0,3.0,Unsubscribe,0.0,3,0.0,13,9,0,10,,2.1
+992,ICGS,261,Fail,9/17/2016,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,10993,Wednesday,0,1.0,Subscribe,0.0,1,0.0,17,9,0,6,,2.1
+993,ICGS,Pass,Fail,9/18/2016,UAT2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise,10994,Thursday,0,1.0,Subscribe,0.0,1,0.0,18,9,0,6,,2.1
+995,ICGS,264,Fail,9/20/2016,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",10996,Saturday,0,3.0,Cart Updation,0.0,3,0.0,20,9,0,2,,2.1
+999,ICGS,Pass,Fail,9/24/2016,PROD2.0|plt.show()|matplotlib is not imported|visualising,11000,Wednesday,0,1.0,Badging,0.0,1,0.0,24,9,0,9,,2.1
+1000,ICGS,Pass,Fail,9/25/2016,"DEV2.0|plt.plot(x,y)|x,y : undefined variables|plotting",11001,Thursday,0,1.0,login,0.0,1,0.0,25,9,0,4,,2.1
+1001,ICGS,Pass,Fail,9/26/2016,STG2.0| if i>5 |SyntaxError: invalid syntax |decision control,11002,Friday,0,3.0,Cart Updation,0.0,3,0.0,26,9,0,2,,2.1
+1004,ICGS,273,Fail,9/29/2016,STG2.0|for x in range(10)|List out of index [15]|looping,11005,Monday,0,1.0,Unsubscribe,0.0,1,0.0,29,9,0,10,,2.1
+1006,ICGS,275,Fail,10/1/2016,DEV2.0|import seaborn as sns|seaborn: package not found|importing,11007,Wednesday,0,1.0,Subscribe,0.0,1,0.0,1,10,0,6,,2.1
+1007,ICGS,Pass,Fail,10/2/2016,"DEV2.0|print(data.[""Name""])|No column named ""Name""|retrive data",11008,Thursday,0,1.0,Unsubscribe,0.0,1,0.0,2,10,0,10,,2.1
+1009,ICGS,Pass,Fail,10/4/2016,UAT2.0|fun(20)|arguments undefined in function|pass by value ,11010,Saturday,0,3.0,Cart Updation,0.0,3,0.0,4,10,0,2,,2.1
+1012,ICGS,281,Fail,10/7/2016,DEV2.0|df.read_csv(...)|file not found|Importing file,11013,Tuesday,0,1.0,End to End,0.0,1,0.0,7,10,0,1,,2.1
+1013,ICGS,282,Fail,10/8/2016,"DEV2.0|print(data.[""Name""])|No column named ""Name""|retrive data",11014,Wednesday,0,1.0,Badging,0.0,1,0.0,8,10,0,9,,2.1
+1014,ICGS,Pass,Fail,10/9/2016,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",11015,Thursday,0,1.0,Promo,0.0,1,0.0,9,10,0,8,,2.1
+1015,ICGS,284,Fail,10/10/2016,"DEV2.0|print(""sum is"",a+b)|No varibles named a and b|retrive data",11016,Friday,0,3.0,Subscribe,0.0,3,0.0,10,10,0,6,,2.1
+1016,ICGS,285,Fail,10/11/2016,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",11017,Saturday,0,3.0,Custom Badging,0.0,3,0.0,11,10,0,5,,2.1
+1020,ICGS,Pass,Fail,10/15/2016,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",11021,Wednesday,0,1.0,Register,0.0,1,0.0,15,10,0,7,,2.1
+1021,ICGS,290,Fail,10/16/2016,STG2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|importing,11022,Thursday,0,1.0,Custom Badging,0.0,1,0.0,16,10,0,5,,2.1
+1024,ICGS,293,Fail,10/19/2016,DEV2.0|df.read_csv(...)|file not found|Importing file,11025,Sunday,0,4.0,Promo,0.0,4,0.0,19,10,0,8,,2.1
+1025,ICGS,Pass,Fail,10/20/2016,PROD2.0|plt.show()|matplotlib is not imported|visualising,11026,Monday,0,1.0,Register,0.0,1,0.0,20,10,0,7,,2.1
+1032,ICGS,Pass,Fail,10/27/2016,UAT2.0|import matplotlib.pyplot as plt|matplot: Package not found|importing,11033,Monday,0,1.0,Badging,0.0,1,0.0,27,10,0,9,,2.1
+1033,ICGS,302,Fail,10/28/2016,UAT2.0|import pandasa as pd|pandas: Package not found|importing,11034,Tuesday,0,1.0,Cart Updation,0.0,1,0.0,28,10,0,2,,2.1
+1035,ICGS,304,Fail,10/30/2016,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",11036,Thursday,Haloween,5.0,Promo,0.0,1,4.0,30,10,0,8,,2.1
+1036,ICGS,Pass,Fail,10/31/2016,DEV2.0|import seaborn as sns|seaborn: package not found|importing,11037,Friday,Haloween,7.0,Cart Updation,0.0,3,4.0,31,10,0,2,,2.1
+1039,ICGS,308,Fail,11/3/2016,"STG2.0|for i,j in range()|range expected 1 arguments|parsing",11040,Monday,0,1.0,End to End,0.0,1,0.0,3,11,0,1,,2.1
+1045,ICGS,314,Fail,11/9/2016,UAT2.0|import matplotlib.pyplot as plt|matplot: Package not found|importing,11046,Sunday,0,4.0,Badging,0.0,4,0.0,9,11,0,9,,2.1
+1052,ICGS,Pass,Fail,11/16/2016,PROD2.0|import seaborn as sns|seaborn: Package not found|Coloring,11053,Sunday,0,4.0,Promo,0.0,4,0.0,16,11,0,8,,2.1
+1054,ICGS,Pass,Fail,11/18/2016,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",11055,Tuesday,0,1.0,Cart Updation,0.0,1,0.0,18,11,0,2,,2.1
+1058,ICGS,327,Fail,11/22/2016,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",11059,Saturday,0,3.0,End to End,0.0,3,0.0,22,11,0,1,,2.1
+1060,ICGS,Pass,Fail,11/24/2016,"DEV2.0|print(""a[10]"")|No varible named a|retrive data",11061,Monday,0,1.0,Tag,0.0,1,0.0,24,11,0,3,,2.1
+1064,ICGS,333,Fail,11/28/2016,"DEV2.0| for x,d in data.Height, data.shape[0]| too many values to unpack|looping",11065,Friday,Thanksgiving Week,9.0,Custom Badging,0.0,3,6.0,28,11,0,5,,2.1
+1066,ICGS,Pass,Fail,11/30/2016,UAT2.0|fun(20)|arguments undefined in function|pass by value ,11067,Sunday,Thanksgiving Week,10.0,Unsubscribe,0.0,4,6.0,30,11,0,10,,2.1
+1067,ICGS,Pass,Fail,12/1/2016,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,11068,Monday,Thanksgiving Week,7.0,Tag,0.0,1,6.0,1,12,0,3,,2.1
+1068,ICGS,337,Fail,12/2/2016,UAT2.0|import pandasa as pd|pandas: Package not found|importing,11069,Tuesday,0,1.0,End to End,0.0,1,0.0,2,12,0,1,,2.1
+1071,ICGS,Pass,Fail,12/5/2016,PROD2.0|import seaborn as sns|seaborn: Package not found|Coloring,11072,Friday,0,3.0,Subscribe,0.0,3,0.0,5,12,0,6,,2.1
+1074,ICGS,Pass,Fail,12/8/2016,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",11075,Monday,0,1.0,Promo,0.0,1,0.0,8,12,0,8,,2.1
+1075,ICGS,Pass,Fail,12/9/2016,PROD2.0|np.arange(8)|numpy array out of range|looping,11076,Tuesday,0,1.0,login,0.0,1,0.0,9,12,0,4,,2.1
+1077,ICGS,Pass,Fail,12/11/2016,UAT2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise,11078,Thursday,0,1.0,Unsubscribe,0.0,1,0.0,11,12,0,10,,2.1
+1078,ICGS,Pass,Fail,12/12/2016,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",11079,Friday,0,3.0,Unsubscribe,0.0,3,0.0,12,12,0,10,,2.1
+1080,ICGS,349,Fail,12/14/2016,UAT2.0|import pandasa as pd|pandas: Package not found|importing,11081,Sunday,0,4.0,Promo,0.0,4,0.0,14,12,0,8,,2.1
+1084,ICGS,Pass,Fail,12/18/2016,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",11085,Thursday,0,1.0,Unsubscribe,0.0,1,0.0,18,12,0,10,,2.1
+1085,ICGS,354,Fail,12/19/2016,"DEV2.0| print ""Ok""|Missing parentheses in call to 'print'| printing",11086,Friday,0,3.0,Promo,0.0,3,0.0,19,12,0,8,,2.1
+1087,ICGS,356,Fail,12/21/2016,DEV2.0|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming,11088,Sunday,0,4.0,Custom Badging,0.0,4,0.0,21,12,0,5,,2.1
+1088,ICGS,Pass,Fail,12/22/2016,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",11089,Monday,0,1.0,login,0.0,1,0.0,22,12,0,4,,2.1
+1090,ICGS,Pass,Fail,12/24/2016,DEV2.0|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming,11091,Wednesday,Christmas,7.0,Unsubscribe,0.0,1,6.0,24,12,0,10,,2.1
+1091,ICGS,360,Fail,12/25/2016,"STG2.0|for i,j in range()|range expected 1 arguments|parsing",11092,Thursday,Christmas,7.0,Unsubscribe,0.0,1,6.0,25,12,0,10,,2.1
+1094,ICGS,Pass,Fail,12/28/2016,UAT2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise,11095,Sunday,0,4.0,Unsubscribe,0.0,4,0.0,28,12,0,10,,2.1
+5485,ICGS,1,Fail,1/1/2017,"DEV2.0|plt.plot(x,y)|x,y : undefined variables|plotting",15486,Tuesday,New Year,6.0,End to End,0.0,1,5.0,1,1,0,1,,2.1
+5486,ICGS,2,Fail,1/2/2017,DEV2.0|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data,15487,Wednesday,0,1.0,Custom Badging,0.0,1,0.0,2,1,0,5,,2.1
+5489,ICGS,5,Fail,1/5/2017,PROD2.0|print(('python')*a)|a: variable undefined|retrieve data,15490,Saturday,0,3.0,Tag,0.0,3,0.0,5,1,0,3,,2.1
+5492,ICGS,Pass,Fail,1/8/2017,PROD2.0|plt.show()|matplotlib is not imported|visualising,15493,Tuesday,0,1.0,Tag,0.0,1,0.0,8,1,0,3,,2.1
+5494,ICGS,Pass,Fail,1/10/2017,"DEV2.0|print(""sum is"",a+b)|No varibles named a and b|retrive data",15495,Thursday,0,1.0,End to End,0.0,1,0.0,10,1,0,1,,2.1
+5495,ICGS,Pass,Fail,1/11/2017,"UAT2.0|return func(*args, **kw)|InterruptedError|Handle Interrupt Error",15496,Friday,0,3.0,End to End,0.0,3,0.0,11,1,0,1,,2.1
+5499,ICGS,15,Fail,1/15/2017,"STG2.0|for i,j in range()|range expected 1 arguments|parsing",15500,Tuesday,0,1.0,Cart Updation,0.0,1,0.0,15,1,0,2,,2.1
+5500,ICGS,Pass,Fail,1/16/2017,"DEV2.0| for x,d in data.Height, data.shape[0]| too many values to unpack|looping",15501,Wednesday,0,1.0,End to End,0.0,1,0.0,16,1,0,1,,2.1
+5502,ICGS,Pass,Fail,1/18/2017,DEV2.0|print(df.columns)|df: undefined dataframe|retrive data,15503,Friday,0,3.0,login,0.0,3,0.0,18,1,0,4,,2.1
+5503,ICGS,19,Fail,1/19/2017,UAT2.0|import pandas as pd|package not found|importing,15504,Saturday,0,3.0,Promo,0.0,3,0.0,19,1,0,8,,2.1
+5505,ICGS,21,Fail,1/21/2017,DEV2.0|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming,15506,Monday,0,1.0,Tag,0.0,1,0.0,21,1,0,3,,2.1
+5512,ICGS,28,Fail,1/28/2017,"DEV2.0|for val in ""string"": |val : undefined variable|iteration",15513,Monday,0,1.0,Promo,0.0,1,0.0,28,1,0,8,,2.1
+5515,ICGS,Pass,Fail,1/31/2017,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,15516,Thursday,0,1.0,Tag,0.0,1,0.0,31,1,0,3,,2.1
+5516,ICGS,32,Fail,2/1/2017,"DEV2.0|print(""a[10]"")|No varible named a|retrive data",15517,Friday,0,3.0,End to End,0.0,3,0.0,1,2,0,1,,2.1
+5517,ICGS,Pass,Fail,2/2/2017,"STG2.0|for i,j in range()|range expected 1 arguments|parsing",15518,Saturday,0,3.0,End to End,0.0,3,0.0,2,2,0,1,,2.1
+5519,ICGS,35,Fail,2/4/2017,DEV2.0|plt.show()|displaying graph without plotting it|plotting,15520,Monday,0,1.0,Badging,0.0,1,0.0,4,2,0,9,,2.1
+5521,ICGS,37,Fail,2/6/2017,UAT2.0|fun(20)|arguments undefined in function|pass by value ,15522,Wednesday,0,1.0,Tag,0.0,1,0.0,6,2,0,3,,2.1
+5522,ICGS,Pass,Fail,2/7/2017,"PROD2.0| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly",15523,Thursday,0,1.0,Register,0.0,1,0.0,7,2,0,7,,2.1
+5529,ICGS,Pass,Fail,2/14/2017,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",15530,Thursday,0,1.0,End to End,0.0,1,0.0,14,2,0,1,,2.1
+5530,ICGS,46,Fail,2/15/2017,"DEV2.0| print ""Ok""|Missing parentheses in call to 'print'| printing",15531,Friday,0,3.0,login,0.0,3,0.0,15,2,0,4,,2.1
+5531,ICGS,Pass,Fail,2/16/2017,"UAT2.0| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading",15532,Saturday,0,3.0,End to End,0.0,3,0.0,16,2,0,1,,2.1
+5532,ICGS,48,Fail,2/17/2017,DEV2.0|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data,15533,Sunday,0,4.0,Custom Badging,0.0,4,0.0,17,2,0,5,,2.1
+5533,ICGS,49,Fail,2/18/2017,UAT2.0|import matplotlib.pyplot as plt|matplot: Package not found|importing,15534,Monday,0,1.0,Badging,0.0,1,0.0,18,2,0,9,,2.1
+5534,ICGS,Pass,Fail,2/19/2017,UAT2.0|import pandas as pd|package not found|importing,15535,Tuesday,0,1.0,login,0.0,1,0.0,19,2,0,4,,2.1
+5536,ICGS,Pass,Fail,2/21/2017,"STG2.0|for i,j in range()|range expected 1 arguments|parsing",15537,Thursday,0,1.0,login,0.0,1,0.0,21,2,0,4,,2.1
+5537,ICGS,53,Fail,2/22/2017,DEV2.0|print(df.columns)|df: undefined dataframe|retrive data,15538,Friday,0,3.0,Promo,0.0,3,0.0,22,2,0,8,,2.1
+5538,ICGS,54,Fail,2/23/2017,UAT2.0|import pandas as pd|package not found|importing,15539,Saturday,0,3.0,Badging,0.0,3,0.0,23,2,0,9,,2.1
+5541,ICGS,57,Fail,2/26/2017,STG2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|importing,15542,Tuesday,0,1.0,End to End,0.0,1,0.0,26,2,0,1,,2.1
+5543,ICGS,Pass,Fail,2/28/2017,"DEV2.0|for val in ""string"": |val : undefined variable|iteration",15544,Thursday,0,1.0,Promo,0.0,1,0.0,28,2,0,8,,2.1
+5544,ICGS,Pass,Fail,3/1/2017,UAT2.0|import matplotlib.pyplot as plt|matplot: Package not found|importing,15545,Friday,0,3.0,login,0.0,3,0.0,1,3,0,4,,2.1
+5546,ICGS,62,Fail,3/3/2017,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",15547,Sunday,0,4.0,Cart Updation,0.0,4,0.0,3,3,0,2,,2.1
+5550,ICGS,Pass,Fail,3/7/2017,DEV2.0|plt.show()|plt:undefined name|displaying,15551,Thursday,0,1.0,Subscribe,0.0,1,0.0,7,3,0,6,,2.1
+5551,ICGS,67,Fail,3/8/2017,STG2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|importing,15552,Friday,0,3.0,Register,0.0,3,0.0,8,3,0,7,,2.1
+5552,ICGS,Pass,Fail,3/9/2017,STG2.0|for x in range(10)|List out of index [15]|looping,15553,Saturday,0,3.0,End to End,0.0,3,0.0,9,3,0,1,,2.1
+5554,ICGS,70,Fail,3/11/2017,STG2.0|while var >! 0:  |invalid operator|validation,15555,Monday,0,1.0,Subscribe,0.0,1,0.0,11,3,0,6,,2.1
+5555,ICGS,Pass,Fail,3/12/2017,PROD2.0|plt.show()|matplotlib is not imported|visualising,15556,Tuesday,0,1.0,Cart Updation,0.0,1,0.0,12,3,0,2,,2.1
+5561,ICGS,77,Fail,3/18/2017,"UAT2.0| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading",15562,Monday,0,1.0,Register,0.0,1,0.0,18,3,0,7,,2.1
+5565,ICGS,Pass,Fail,3/22/2017,UAT2.0|import matplotlib.pyplot as plt|matplot: Package not found|importing,15566,Friday,0,3.0,Tag,0.0,3,0.0,22,3,0,3,,2.1
+5566,ICGS,Pass,Fail,3/23/2017,STG2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|importing,15567,Saturday,0,3.0,Custom Badging,0.0,3,0.0,23,3,0,5,,2.1
+5570,ICGS,Pass,Fail,3/27/2017,PROD2.0|plt.show()|matplotlib is not imported|visualising,15571,Wednesday,0,1.0,Promo,0.0,1,0.0,27,3,0,8,,2.1
+5571,ICGS,87,Fail,3/28/2017,UAT2.0|import pandas as pd|package not found|importing,15572,Thursday,0,1.0,login,0.0,1,0.0,28,3,0,4,,2.1
+5580,ICGS,Pass,Fail,4/6/2017,UAT2.0|import pandas as pd|package not found|importing,15581,Saturday,0,3.0,Promo,0.0,3,0.0,6,4,0,8,,2.1
+5590,ICGS,Pass,Fail,4/16/2017,UAT2.0|fun(20)|arguments undefined in function|pass by value ,15591,Tuesday,0,1.0,Cart Updation,0.0,1,0.0,16,4,0,2,,2.1
+5591,ICGS,107,Fail,4/17/2017,"DEV2.0|for val in ""string"": |val : undefined variable|iteration",15592,Wednesday,0,1.0,End to End,0.0,1,0.0,17,4,0,1,,2.1
+5595,ICGS,Pass,Fail,4/21/2017,"UAT2.0|return func(*args, **kw)|InterruptedError|Handle Interrupt Error",15596,Sunday,0,4.0,Tag,0.0,4,0.0,21,4,0,3,,2.1
+5601,ICGS,Pass,Fail,4/27/2017,DEV2.0|df.read_csv(...)|file not found|Importing file,15602,Saturday,0,3.0,Custom Badging,0.0,3,0.0,27,4,0,5,,2.1
+5603,ICGS,Pass,Fail,4/29/2017,STG2.0|for i in Age|list index out of range|looping,15604,Monday,0,1.0,Unsubscribe,0.0,1,0.0,29,4,0,10,,2.1
+5605,ICGS,Pass,Fail,5/1/2017,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,15606,Wednesday,0,1.0,login,0.0,1,0.0,1,5,0,4,,2.1
+5608,ICGS,124,Fail,5/4/2017,PROD2.0|import numpy as np|numpy: Package not found|importing,15609,Saturday,0,3.0,Cart Updation,0.0,3,0.0,4,5,0,2,,2.1
+5612,ICGS,128,Fail,5/8/2017,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",15613,Wednesday,0,1.0,Unsubscribe,0.0,1,0.0,8,5,0,10,,2.1
+5613,ICGS,Pass,Fail,5/9/2017,"DEV2.0|plt.plot(x,y)|x,y : undefined variables|plotting",15614,Thursday,0,1.0,Badging,0.0,1,0.0,9,5,0,9,,2.1
+5617,ICGS,Pass,Fail,5/13/2017,DEV2.0|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data,15618,Monday,0,1.0,Custom Badging,0.0,1,0.0,13,5,0,5,,2.1
+5619,ICGS,135,Fail,5/15/2017,DEV2.0|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data,15620,Wednesday,0,1.0,login,0.0,1,0.0,15,5,0,4,,2.1
+5620,ICGS,136,Fail,5/16/2017,DEV2.0|plt.show()|displaying graph without plotting it|plotting,15621,Thursday,0,1.0,End to End,0.0,1,0.0,16,5,0,1,,2.1
+5623,ICGS,Pass,Fail,5/19/2017,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",15624,Sunday,0,4.0,login,0.0,4,0.0,19,5,0,4,,2.1
+5629,ICGS,Pass,Fail,5/25/2017,"DEV2.0|for val in ""string"": |val : undefined variable|iteration",15630,Saturday,0,3.0,Badging,0.0,3,0.0,25,5,0,9,,2.1
+5632,ICGS,Pass,Fail,5/28/2017,DEV2.0|import seaborn as sns|seaborn: package not found|importing,15633,Tuesday,0,1.0,Badging,0.0,1,0.0,28,5,0,9,,2.1
+5635,ICGS,Pass,Fail,5/31/2017,STG2.0|for i in Age|list index out of range|looping,15636,Friday,0,3.0,Register,0.0,3,0.0,31,5,0,7,,2.1
+5636,ICGS,152,Fail,6/1/2017,DEV2.0|df.read_csv(...)|file not found|Importing file,15637,Saturday,0,3.0,Badging,0.0,3,0.0,1,6,0,9,,2.1
+5637,ICGS,153,Fail,6/2/2017,DEV2.0|plt.show()|plt:undefined name|displaying,15638,Sunday,0,4.0,Custom Badging,0.0,4,0.0,2,6,0,5,,2.1
+5639,ICGS,155,Fail,6/4/2017,"PROD2.0| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly",15640,Tuesday,0,1.0,Register,0.0,1,0.0,4,6,0,7,,2.1
+5642,ICGS,Pass,Fail,6/7/2017,PROD2.0|plt.show()|matplotlib is not imported|visualising,15643,Friday,0,3.0,Tag,0.0,3,0.0,7,6,0,3,,2.1
+5644,ICGS,Pass,Fail,6/9/2017,"DEV2.0|print(""sum is"",a+b)|No varibles named a and b|retrive data",15645,Sunday,0,4.0,Custom Badging,0.0,4,0.0,9,6,0,5,,2.1
+5646,ICGS,162,Fail,6/11/2017,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",15647,Tuesday,0,1.0,Register,0.0,1,0.0,11,6,0,7,,2.1
+5651,ICGS,167,Fail,6/16/2017,"DEV2.0| for x,d in data.Height, data.shape[0]| too many values to unpack|looping",15652,Sunday,0,4.0,Subscribe,0.0,4,0.0,16,6,0,6,,2.1
+5652,ICGS,Pass,Fail,6/17/2017,DEV2.0|plt.show()|plt:undefined name|displaying,15653,Monday,0,1.0,Custom Badging,0.0,1,0.0,17,6,0,5,,2.1
+5653,ICGS,Pass,Fail,6/18/2017,UAT2.0|fun(20)|arguments undefined in function|pass by value ,15654,Tuesday,0,1.0,Subscribe,0.0,1,0.0,18,6,0,6,,2.1
+5654,ICGS,170,Fail,6/19/2017,PROD2.0|print(('python')*a)|a: variable undefined|retrieve data,15655,Wednesday,0,1.0,Tag,0.0,1,0.0,19,6,0,3,,2.1
+5657,ICGS,173,Fail,6/22/2017,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,15658,Saturday,0,3.0,Custom Badging,0.0,3,0.0,22,6,0,5,,2.1
+5661,ICGS,177,Fail,6/26/2017,"PROD2.0|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data",15662,Wednesday,0,1.0,Tag,0.0,1,0.0,26,6,0,3,,2.1
+5662,ICGS,Pass,Fail,6/27/2017,UAT2.0|import pandasa as pd|pandasa: Package not found|importing,15663,Thursday,0,1.0,Badging,0.0,1,0.0,27,6,0,9,,2.1
+5663,ICGS,179,Fail,6/28/2017,DEV2.0|import seaborn as sns|seaborn: package not found|importing,15664,Friday,0,3.0,Register,0.0,3,0.0,28,6,0,7,,2.1
+5669,ICGS,Pass,Fail,7/4/2017,STG2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|importing,15670,Thursday,Independence Day,5.0,Register,0.0,1,4.0,4,7,0,7,,2.1
+5674,ICGS,Pass,Fail,7/9/2017,STG2.0|while var >! 0:  |invalid operator|validation,15675,Tuesday,0,1.0,Badging,0.0,1,0.0,9,7,0,9,,2.1
+5676,ICGS,Pass,Fail,7/11/2017,UAT2.0|import pandas as pd|package not found|importing,15677,Thursday,0,1.0,Unsubscribe,0.0,1,0.0,11,7,0,10,,2.1
+5678,ICGS,194,Fail,7/13/2017,UAT2.0|form.submit(name[0])|Array index out of bounds|Need to specify name,15679,Saturday,0,3.0,Cart Updation,0.0,3,0.0,13,7,0,2,,2.1
+5679,ICGS,Pass,Fail,7/14/2017,STG2.0| if i>5 |SyntaxError: invalid syntax |decision control,15680,Sunday,0,4.0,Subscribe,0.0,4,0.0,14,7,0,6,,2.1
+5680,ICGS,196,Fail,7/15/2017,"DEV2.0|print(data.[""Name""])|No column named ""Name""|retrive data",15681,Monday,0,1.0,Badging,0.0,1,0.0,15,7,0,9,,2.1
+5681,ICGS,Pass,Fail,7/16/2017,DEV2.0|df.read_csv(...)|file not found|Importing file,15682,Tuesday,0,1.0,Custom Badging,0.0,1,0.0,16,7,0,5,,2.1
+5682,ICGS,198,Fail,7/17/2017,PROD2.0|import seaborn as sns|seaborn: Package not found|Coloring,15683,Wednesday,0,1.0,Unsubscribe,0.0,1,0.0,17,7,0,10,,2.1
+5685,ICGS,201,Fail,7/20/2017,DEV2.0|df.read_csv(...)|file not found|Importing file,15686,Saturday,0,3.0,Subscribe,0.0,3,0.0,20,7,0,6,,2.1
+5690,ICGS,Pass,Fail,7/25/2017,PROD2.0|np.arange(8)|numpy array out of range|looping,15691,Thursday,0,1.0,Subscribe,0.0,1,0.0,25,7,0,6,,2.1
+5692,ICGS,208,Fail,7/27/2017,DEV2.0|plt.show()|plt:undefined name|displaying,15693,Saturday,0,3.0,End to End,0.0,3,0.0,27,7,0,1,,2.1
+5698,ICGS,214,Fail,8/2/2017,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",15699,Friday,0,3.0,Cart Updation,0.0,3,0.0,2,8,0,2,,2.1
+5701,ICGS,Pass,Fail,8/5/2017,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",15702,Monday,0,1.0,Unsubscribe,0.0,1,0.0,5,8,0,10,,2.1
+5704,ICGS,Pass,Fail,8/8/2017,"STG2.0|for i,j in range()|range expected 1 arguments|parsing",15705,Thursday,0,1.0,login,0.0,1,0.0,8,8,0,4,,2.1
+5714,ICGS,230,Fail,8/18/2017,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",15715,Sunday,0,4.0,Unsubscribe,0.0,4,0.0,18,8,0,10,,2.1
+5715,ICGS,Pass,Fail,8/19/2017,DEV2.0|plt.show()|plt:undefined name|displaying,15716,Monday,0,1.0,Promo,0.0,1,0.0,19,8,0,8,,2.1
+5716,ICGS,232,Fail,8/20/2017,DEV2.0|df.read_csv(...)|file not found|Importing file,15717,Tuesday,0,1.0,Tag,0.0,1,0.0,20,8,0,3,,2.1
+5718,ICGS,234,Fail,8/22/2017,STG2.0|for i in Age|list index out of range|looping,15719,Thursday,0,1.0,Cart Updation,0.0,1,0.0,22,8,0,2,,2.1
+5720,ICGS,236,Fail,8/24/2017,DEV2.0|df.read_csv(...)|file not found|Importing file,15721,Saturday,0,3.0,Custom Badging,0.0,3,0.0,24,8,0,5,,2.1
+5723,ICGS,239,Fail,8/27/2017,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",15724,Tuesday,0,1.0,Unsubscribe,0.0,1,0.0,27,8,0,10,,2.1
+5733,ICGS,Pass,Fail,9/6/2017,PROD2.0|import seaborn as sns|seaborn: Package not found|Coloring,15734,Friday,0,3.0,Promo,0.0,3,0.0,6,9,0,8,,2.1
+5734,ICGS,Pass,Fail,9/7/2017,"DEV2.0|print(data.[""Name""])|No column named ""Name""|retrive data",15735,Saturday,0,3.0,Register,0.0,3,0.0,7,9,0,7,,2.1
+5735,ICGS,Pass,Fail,9/8/2017,UAT2.0|form.submit(name[0])|Array index out of bounds|Need to specify name,15736,Sunday,0,4.0,Register,0.0,4,0.0,8,9,0,7,,2.1
+5736,ICGS,Pass,Fail,9/9/2017,"DEV2.0|for val in ""string"": |val : undefined variable|iteration",15737,Monday,0,1.0,Badging,0.0,1,0.0,9,9,0,9,,2.1
+5737,ICGS,253,Fail,9/10/2017,"UAT2.0| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading",15738,Tuesday,0,1.0,login,0.0,1,0.0,10,9,0,4,,2.1
+5741,ICGS,257,Fail,9/14/2017,UAT2.0|import pandasa as pd|pandas: Package not found|importing,15742,Saturday,0,3.0,Custom Badging,0.0,3,0.0,14,9,0,5,,2.1
+5742,ICGS,Pass,Fail,9/15/2017,PROD2.0|print(('python')*a)|a: variable undefined|retrieve data,15743,Sunday,0,4.0,login,0.0,4,0.0,15,9,0,4,,2.1
+5745,ICGS,Pass,Fail,9/18/2017,PROD2.0|Not compatible with IOS 13|Update not found|Updating,15746,Wednesday,0,1.0,Badging,0.0,1,0.0,18,9,0,9,,2.1
+5748,ICGS,Pass,Fail,9/21/2017,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",15749,Saturday,0,3.0,Promo,0.0,3,0.0,21,9,0,8,,2.1
+5751,ICGS,267,Fail,9/24/2017,STG2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|importing,15752,Tuesday,0,1.0,End to End,0.0,1,0.0,24,9,0,1,,2.1
+5756,ICGS,Pass,Fail,9/29/2017,DEV2.0|plt.show()|displaying graph without plotting it|plotting,15757,Sunday,0,4.0,Register,0.0,4,0.0,29,9,0,7,,2.1
+5757,ICGS,Pass,Fail,9/30/2017,"UAT2.0|return func(*args, **kw)|InterruptedError|Handle Interrupt Error",15758,Monday,0,1.0,Tag,0.0,1,0.0,30,9,0,3,,2.1
+5760,ICGS,Pass,Fail,10/3/2017,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",15761,Thursday,0,1.0,Custom Badging,0.0,1,0.0,3,10,0,5,,2.1
+5763,ICGS,Pass,Fail,10/6/2017,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",15764,Sunday,0,4.0,login,0.0,4,0.0,6,10,0,4,,2.1
+5764,ICGS,280,Fail,10/7/2017,STG2.0|for x in range(10)|List out of index [15]|looping,15765,Monday,0,1.0,Custom Badging,0.0,1,0.0,7,10,0,5,,2.1
+5766,ICGS,Pass,Fail,10/9/2017,PROD2.0|import numpy as np|numpy: Package not found|importing,15767,Wednesday,0,1.0,Cart Updation,0.0,1,0.0,9,10,0,2,,2.1
+5767,ICGS,Pass,Fail,10/10/2017,"DEV2.0|print(""a[10]"")|No varible named a|retrive data",15768,Thursday,0,1.0,Tag,0.0,1,0.0,10,10,0,3,,2.1
+5768,ICGS,Pass,Fail,10/11/2017,DEV2.0|df.read_csv(...)|file not found|Importing file,15769,Friday,0,3.0,End to End,0.0,3,0.0,11,10,0,1,,2.1
+5772,ICGS,288,Fail,10/15/2017,"DEV2.0|print(""sum is"",a+b)|No varibles named a and b|retrive data",15773,Tuesday,0,1.0,Cart Updation,0.0,1,0.0,15,10,0,2,,2.1
+5774,ICGS,290,Fail,10/17/2017,"DEV2.0| print ""Ok""|Missing parentheses in call to 'print'| printing",15775,Thursday,0,1.0,Tag,0.0,1,0.0,17,10,0,3,,2.1
+5776,ICGS,292,Fail,10/19/2017,STG2.0|while var >! 0:  |invalid operator|validation,15777,Saturday,0,3.0,Promo,0.0,3,0.0,19,10,0,8,,2.1
+5777,ICGS,Pass,Fail,10/20/2017,STG2.0|for x in range(10)|List out of index [15]|looping,15778,Sunday,0,4.0,login,0.0,4,0.0,20,10,0,4,,2.1
+5778,ICGS,Pass,Fail,10/21/2017,UAT2.0|import pandasa as pd|pandasa: Package not found|importing,15779,Monday,0,1.0,Subscribe,0.0,1,0.0,21,10,0,6,,2.1
+5780,ICGS,Pass,Fail,10/23/2017,DEV2.0|import seaborn as sns|seaborn: package not found|importing,15781,Wednesday,0,1.0,Unsubscribe,0.0,1,0.0,23,10,0,10,,2.1
+5783,ICGS,Pass,Fail,10/26/2017,"PROD2.0| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter",15784,Saturday,0,3.0,Custom Badging,0.0,3,0.0,26,10,0,5,,2.1
+5788,ICGS,304,Fail,10/31/2017,UAT2.0|import pandasa as pd|pandasa: Package not found|importing,15789,Thursday,Haloween,5.0,login,0.0,1,4.0,31,10,0,4,,2.1
+5789,ICGS,305,Fail,11/1/2017,STG2.0|for i in Age|list index out of range|looping,15790,Friday,0,3.0,Badging,0.0,3,0.0,1,11,0,9,,2.1
+5790,ICGS,306,Fail,11/2/2017,PROD2.0|plt.show()|matplotlib is not imported|visualising,15791,Saturday,0,3.0,Subscribe,0.0,3,0.0,2,11,0,6,,2.1
+5795,ICGS,311,Fail,11/7/2017,PROD2.0|import numpy as np|numpy: Package not found|importing,15796,Thursday,0,1.0,Unsubscribe,0.0,1,0.0,7,11,0,10,,2.1
+5797,ICGS,313,Fail,11/9/2017,UAT2.0|import pandas as pd|package not found|importing,15798,Saturday,0,3.0,Subscribe,0.0,3,0.0,9,11,0,6,,2.1
+5804,ICGS,Pass,Fail,11/16/2017,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",15805,Saturday,0,3.0,Tag,0.0,3,0.0,16,11,0,3,,2.1
+5809,ICGS,325,Fail,11/21/2017,"DEV2.0|for val in ""string"": |val : undefined variable|iteration",15810,Thursday,0,1.0,End to End,0.0,1,0.0,21,11,0,1,,2.1
+5811,ICGS,327,Fail,11/23/2017,UAT2.0|import pandasa as pd|pandas: Package not found|importing,15812,Saturday,0,3.0,Cart Updation,0.0,3,0.0,23,11,0,2,,2.1
+5813,ICGS,329,Fail,11/25/2017,STG2.0|for i in Age|list index out of range|looping,15814,Monday,0,1.0,Badging,0.0,1,0.0,25,11,0,9,,2.1
+5814,ICGS,330,Fail,11/26/2017,UAT2.0|import matplotlib.pyplot as plt|matplot: Package not found|importing,15815,Tuesday,0,1.0,Promo,0.0,1,0.0,26,11,0,8,,2.1
+5815,ICGS,331,Fail,11/27/2017,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",15816,Wednesday,0,1.0,Unsubscribe,0.0,1,0.0,27,11,0,10,,2.1
+5816,ICGS,Pass,Fail,11/28/2017,"UAT2.0|return func(*args, **kw)|InterruptedError|Handle Interrupt Error",15817,Thursday,Thanksgiving Week,7.0,Subscribe,0.0,1,6.0,28,11,0,6,,2.1
+5827,ICGS,Pass,Fail,12/9/2017,"DEV2.0|print(""a[10]"")|No varible named a|retrive data",15828,Monday,0,1.0,Unsubscribe,0.0,1,0.0,9,12,0,10,,2.1
+5828,ICGS,344,Fail,12/10/2017,"DEV2.0| for x,d in data.Height, data.shape[0]| too many values to unpack|looping",15829,Tuesday,0,1.0,Custom Badging,0.0,1,0.0,10,12,0,5,,2.1
+5837,ICGS,353,Fail,12/19/2017,DEV2.0|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming,15838,Thursday,0,1.0,Custom Badging,0.0,1,0.0,19,12,0,5,,2.1
+5841,ICGS,357,Fail,12/23/2017,UAT2.0|fun(20)|arguments undefined in function|pass by value ,15842,Monday,0,1.0,Badging,0.0,1,0.0,23,12,0,9,,2.1
+5843,ICGS,359,Fail,12/25/2017,"PROD2.0| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter",15844,Wednesday,Christmas,7.0,Cart Updation,0.0,1,6.0,25,12,0,2,,2.1
+9135,ICGS,1,Fail,1/1/2018,DEV2.0|df.read_csv(...)|file not found|Importing file,19136,Friday,New Year,8.0,Custom Badging,0.0,3,5.0,1,1,0,5,,2.1
+9145,ICGS,Pass,Fail,1/11/2018,PROD2.0|np.arange(8)|numpy array out of range|looping,19146,Monday,0,1.0,Badging,0.0,1,0.0,11,1,0,9,,2.1
+9146,ICGS,Pass,Fail,1/12/2018,STG2.0|for x in range(10)|List out of index [15]|looping,19147,Tuesday,0,1.0,Cart Updation,0.0,1,0.0,12,1,0,2,,2.1
+9149,ICGS,Pass,Fail,1/15/2018,UAT2.0|import matplotlib.pyplot as plt|matplot: Package not found|importing,19150,Friday,0,3.0,Unsubscribe,0.0,3,0.0,15,1,0,10,,2.1
+9151,ICGS,17,Fail,1/17/2018,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",19152,Sunday,0,4.0,Badging,0.0,4,0.0,17,1,0,9,,2.1
+9152,ICGS,18,Fail,1/18/2018,"DEV2.0|print(""sum is"",a+b)|No varibles named a and b|retrive data",19153,Monday,0,1.0,End to End,0.0,1,0.0,18,1,0,1,,2.1
+9153,ICGS,19,Fail,1/19/2018,PROD2.0|import seaborn as sns|seaborn: Package not found|Coloring,19154,Tuesday,0,1.0,Promo,0.0,1,0.0,19,1,0,8,,2.1
+9155,ICGS,21,Fail,1/21/2018,"PROD2.0|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data",19156,Thursday,0,1.0,End to End,0.0,1,0.0,21,1,0,1,,2.1
+9158,ICGS,Pass,Fail,1/24/2018,STG2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|importing,19159,Sunday,0,4.0,Tag,0.0,4,0.0,24,1,0,3,,2.1
+9161,ICGS,Pass,Fail,1/27/2018,"PROD2.0|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data",19162,Wednesday,0,1.0,login,0.0,1,0.0,27,1,0,4,,2.1
+9162,ICGS,Pass,Fail,1/28/2018,STG2.0| if i>5 |SyntaxError: invalid syntax |decision control,19163,Thursday,0,1.0,Badging,0.0,1,0.0,28,1,0,9,,2.1
+9163,ICGS,29,Fail,1/29/2018,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,19164,Friday,0,3.0,Custom Badging,0.0,3,0.0,29,1,0,5,,2.1
+9164,ICGS,30,Fail,1/30/2018,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",19165,Saturday,0,3.0,Register,0.0,3,0.0,30,1,0,7,,2.1
+9165,ICGS,Pass,Fail,1/31/2018,STG2.0|while var >! 0:  |invalid operator|validation,19166,Sunday,0,4.0,End to End,0.0,4,0.0,31,1,0,1,,2.1
+9167,ICGS,33,Fail,2/2/2018,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",19168,Tuesday,0,1.0,Custom Badging,0.0,1,0.0,2,2,0,5,,2.1
+9170,ICGS,36,Fail,2/5/2018,UAT2.0|import pandas as pd|package not found|importing,19171,Friday,0,3.0,Badging,0.0,3,0.0,5,2,0,9,,2.1
+9174,ICGS,40,Fail,2/9/2018,"UAT2.0| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading",19175,Tuesday,0,1.0,Cart Updation,0.0,1,0.0,9,2,0,2,,2.1
+9176,ICGS,42,Fail,2/11/2018,"DEV2.0|plt.plot(x,y)|x,y : undefined variables|plotting",19177,Thursday,0,1.0,Tag,0.0,1,0.0,11,2,0,3,,2.1
+9181,ICGS,Pass,Fail,2/16/2018,UAT2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise,19182,Tuesday,0,1.0,Unsubscribe,0.0,1,0.0,16,2,0,10,,2.1
+9184,ICGS,50,Fail,2/19/2018,PROD2.0|plt.show()|matplotlib is not imported|visualising,19185,Friday,0,3.0,Register,0.0,3,0.0,19,2,0,7,,2.1
+9186,ICGS,Pass,Fail,2/21/2018,"PROD2.0| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter",19187,Sunday,0,4.0,Custom Badging,0.0,4,0.0,21,2,0,5,,2.1
+9188,ICGS,Pass,Fail,2/23/2018,UAT2.0|import pandasa as pd|pandasa: Package not found|importing,19189,Tuesday,0,1.0,Cart Updation,0.0,1,0.0,23,2,0,2,,2.1
+9189,ICGS,55,Fail,2/24/2018,"UAT2.0| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading",19190,Wednesday,0,1.0,Register,0.0,1,0.0,24,2,0,7,,2.1
+9191,ICGS,Pass,Fail,2/26/2018,DEV2.0|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming,19192,Friday,0,3.0,Register,0.0,3,0.0,26,2,0,7,,2.1
+9197,ICGS,Pass,Fail,3/4/2018,"DEV2.0| for x,d in data.Height, data.shape[0]| too many values to unpack|looping",19198,Thursday,0,1.0,Unsubscribe,0.0,1,0.0,4,3,0,10,,2.1
+9203,ICGS,Pass,Fail,3/10/2018,"DEV2.0|print(""a[10]"")|No varible named a|retrive data",19204,Wednesday,0,1.0,Promo,0.0,1,0.0,10,3,0,8,,2.1
+9204,ICGS,Pass,Fail,3/11/2018,"DEV2.0|for val in ""string"": |val : undefined variable|iteration",19205,Thursday,0,1.0,Tag,0.0,1,0.0,11,3,0,3,,2.1
+9206,ICGS,Pass,Fail,3/13/2018,STG2.0|while var >! 0:  |invalid operator|validation,19207,Saturday,0,3.0,Cart Updation,0.0,3,0.0,13,3,0,2,,2.1
+9208,ICGS,Pass,Fail,3/15/2018,STG2.0|for i in Age|list index out of range|looping,19209,Monday,0,1.0,Unsubscribe,0.0,1,0.0,15,3,0,10,,2.1
+9209,ICGS,Pass,Fail,3/16/2018,STG2.0|for x in range(10)|List out of index [15]|looping,19210,Tuesday,0,1.0,login,0.0,1,0.0,16,3,0,4,,2.1
+9210,ICGS,76,Fail,3/17/2018,"UAT2.0| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading",19211,Wednesday,0,1.0,Unsubscribe,0.0,1,0.0,17,3,0,10,,2.1
+9214,ICGS,Pass,Fail,3/21/2018,PROD2.0|np.arange(8)|numpy array out of range|looping,19215,Sunday,0,4.0,Promo,0.0,4,0.0,21,3,0,8,,2.1
+9215,ICGS,81,Fail,3/22/2018,"UAT2.0|return func(*args, **kw)|InterruptedError|Handle Interrupt Error",19216,Monday,0,1.0,Cart Updation,0.0,1,0.0,22,3,0,2,,2.1
+9217,ICGS,Pass,Fail,3/24/2018,"DEV2.0|print(data.[""Name""])|No column named ""Name""|retrive data",19218,Wednesday,0,1.0,Custom Badging,0.0,1,0.0,24,3,0,5,,2.1
+9218,ICGS,84,Fail,3/25/2018,PROD2.0|np.arange(8)|numpy array out of range|looping,19219,Thursday,0,1.0,Unsubscribe,0.0,1,0.0,25,3,0,10,,2.1
+9222,ICGS,88,Fail,3/29/2018,"DEV2.0|print(""a[10]"")|No varible named a|retrive data",19223,Monday,0,1.0,Cart Updation,0.0,1,0.0,29,3,0,2,,2.1
+9236,ICGS,102,Fail,4/12/2018,"PROD2.0|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data",19237,Monday,0,1.0,login,0.0,1,0.0,12,4,0,4,,2.1
+9238,ICGS,Pass,Fail,4/14/2018,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,19239,Wednesday,0,1.0,Subscribe,0.0,1,0.0,14,4,0,6,,2.1
+9239,ICGS,105,Fail,4/15/2018,UAT2.0|import pandasa as pd|pandas: Package not found|importing,19240,Thursday,0,1.0,login,0.0,1,0.0,15,4,0,4,,2.1
+9240,ICGS,106,Fail,4/16/2018,"PROD2.0|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data",19241,Friday,0,3.0,Subscribe,0.0,3,0.0,16,4,0,6,,2.1
+9242,ICGS,108,Fail,4/18/2018,UAT2.0|import pandasa as pd|pandas: Package not found|importing,19243,Sunday,0,4.0,Register,0.0,4,0.0,18,4,0,7,,2.1
+9244,ICGS,Pass,Fail,4/20/2018,"UAT2.0| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading",19245,Tuesday,0,1.0,Custom Badging,0.0,1,0.0,20,4,0,5,,2.1
+9245,ICGS,111,Fail,4/21/2018,"UAT2.0| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading",19246,Wednesday,0,1.0,Unsubscribe,0.0,1,0.0,21,4,0,10,,2.1
+9249,ICGS,115,Fail,4/25/2018,"UAT2.0|return func(*args, **kw)|InterruptedError|Handle Interrupt Error",19250,Sunday,0,4.0,login,0.0,4,0.0,25,4,0,4,,2.1
+9250,ICGS,Pass,Fail,4/26/2018,DEV2.0|plt.show()|plt:undefined name|displaying,19251,Monday,0,1.0,Custom Badging,0.0,1,0.0,26,4,0,5,,2.1
+9253,ICGS,119,Fail,4/29/2018,"PROD2.0| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter",19254,Thursday,0,1.0,End to End,0.0,1,0.0,29,4,0,1,,2.1
+9254,ICGS,120,Fail,4/30/2018,UAT2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise,19255,Friday,0,3.0,Subscribe,0.0,3,0.0,30,4,0,6,,2.1
+9257,ICGS,Pass,Fail,5/3/2018,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,19258,Monday,0,1.0,Promo,0.0,1,0.0,3,5,0,8,,2.1
+9260,ICGS,126,Fail,5/6/2018,PROD2.0|import numpy as np|numpy: Package not found|importing,19261,Thursday,0,1.0,Tag,0.0,1,0.0,6,5,0,3,,2.1
+9262,ICGS,Pass,Fail,5/8/2018,STG2.0| if i>5 |SyntaxError: invalid syntax |decision control,19263,Saturday,0,3.0,End to End,0.0,3,0.0,8,5,0,1,,2.1
+9265,ICGS,131,Fail,5/11/2018,"UAT2.0|return func(*args, **kw)|InterruptedError|Handle Interrupt Error",19266,Tuesday,0,1.0,End to End,0.0,1,0.0,11,5,0,1,,2.1
+9270,ICGS,Pass,Fail,5/16/2018,DEV2.0|plt.show()|plt:undefined name|displaying,19271,Sunday,0,4.0,Promo,0.0,4,0.0,16,5,0,8,,2.1
+9271,ICGS,Pass,Fail,5/17/2018,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,19272,Monday,0,1.0,Badging,0.0,1,0.0,17,5,0,9,,2.1
+9272,ICGS,138,Fail,5/18/2018,STG2.0|while var >! 0:  |invalid operator|validation,19273,Tuesday,0,1.0,Cart Updation,0.0,1,0.0,18,5,0,2,,2.1
+9283,ICGS,149,Fail,5/29/2018,"PROD2.0| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly",19284,Saturday,0,3.0,Custom Badging,0.0,3,0.0,29,5,0,5,,2.1
+9287,ICGS,153,Fail,6/2/2018,PROD2.0|plt.show()|matplotlib is not imported|visualising,19288,Wednesday,0,1.0,Subscribe,0.0,1,0.0,2,6,0,6,,2.1
+9289,ICGS,Pass,Fail,6/4/2018,"DEV2.0| for x,d in data.Height, data.shape[0]| too many values to unpack|looping",19290,Friday,0,3.0,Tag,0.0,3,0.0,4,6,0,3,,2.1
+9290,ICGS,156,Fail,6/5/2018,PROD2.0|import seaborn as sns|seaborn: Package not found|Coloring,19291,Saturday,0,3.0,Register,0.0,3,0.0,5,6,0,7,,2.1
+9291,ICGS,Pass,Fail,6/6/2018,"DEV2.0|for val in ""string"": |val : undefined variable|iteration",19292,Sunday,0,4.0,Register,0.0,4,0.0,6,6,0,7,,2.1
+9302,ICGS,168,Fail,6/17/2018,DEV2.0|df.read_csv(...)|file not found|Importing file,19303,Thursday,0,1.0,Subscribe,0.0,1,0.0,17,6,0,6,,2.1
+9304,ICGS,170,Fail,6/19/2018,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",19305,Saturday,0,3.0,Tag,0.0,3,0.0,19,6,0,3,,2.1
+9311,ICGS,Pass,Fail,6/26/2018,"PROD2.0| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter",19312,Saturday,0,3.0,Promo,0.0,3,0.0,26,6,0,8,,2.1
+9313,ICGS,179,Fail,6/28/2018,PROD2.0|import seaborn as sns|seaborn: Package not found|Coloring,19314,Monday,0,1.0,Subscribe,0.0,1,0.0,28,6,0,6,,2.1
+9315,ICGS,Pass,Fail,6/30/2018,PROD2.0|import numpy as np|numpy: Package not found|importing,19316,Wednesday,0,1.0,End to End,0.0,1,0.0,30,6,0,1,,2.1
+9317,ICGS,Pass,Fail,7/2/2018,STG2.0|while var >! 0:  |invalid operator|validation,19318,Friday,0,3.0,Register,0.0,3,0.0,2,7,0,7,,2.1
+9318,ICGS,184,Fail,7/3/2018,UAT2.0|import matplotlib.pyplot as plt|matplot: Package not found|importing,19319,Saturday,0,3.0,login,0.0,3,0.0,3,7,0,4,,2.1
+9319,ICGS,Pass,Fail,7/4/2018,STG2.0|for x in range(10)|List out of index [15]|looping,19320,Sunday,Independence Day,8.0,Tag,0.0,4,4.0,4,7,0,3,,2.1
+9320,ICGS,186,Fail,7/5/2018,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",19321,Monday,0,1.0,Custom Badging,0.0,1,0.0,5,7,0,5,,2.1
+9321,ICGS,Pass,Fail,7/6/2018,PROD2.0|Not compatible with IOS 13|Update not found|Updating,19322,Tuesday,0,1.0,Promo,0.0,1,0.0,6,7,0,8,,2.1
+9327,ICGS,Pass,Fail,7/12/2018,DEV2.0|print(df.columns)|df: undefined dataframe|retrive data,19328,Monday,0,1.0,Subscribe,0.0,1,0.0,12,7,0,6,,2.1
+9328,ICGS,Pass,Fail,7/13/2018,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",19329,Tuesday,0,1.0,Register,0.0,1,0.0,13,7,0,7,,2.1
+9332,ICGS,Pass,Fail,7/17/2018,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,19333,Saturday,0,3.0,End to End,0.0,3,0.0,17,7,0,1,,2.1
+9333,ICGS,Pass,Fail,7/18/2018,STG2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|importing,19334,Sunday,0,4.0,End to End,0.0,4,0.0,18,7,0,1,,2.1
+9335,ICGS,Pass,Fail,7/20/2018,UAT2.0|import matplotlib.pyplot as plt|matplot: Package not found|importing,19336,Tuesday,0,1.0,Tag,0.0,1,0.0,20,7,0,3,,2.1
+9336,ICGS,202,Fail,7/21/2018,"DEV2.0| for x,d in data.Height, data.shape[0]| too many values to unpack|looping",19337,Wednesday,0,1.0,Unsubscribe,0.0,1,0.0,21,7,0,10,,2.1
+9337,ICGS,203,Fail,7/22/2018,"PROD2.0| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly",19338,Thursday,0,1.0,Promo,0.0,1,0.0,22,7,0,8,,2.1
+9339,ICGS,Pass,Fail,7/24/2018,"UAT2.0| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading",19340,Saturday,0,3.0,Promo,0.0,3,0.0,24,7,0,8,,2.1
+9340,ICGS,206,Fail,7/25/2018,STG2.0| if i>5 |SyntaxError: invalid syntax |decision control,19341,Sunday,0,4.0,Unsubscribe,0.0,4,0.0,25,7,0,10,,2.1
+9341,ICGS,207,Fail,7/26/2018,"PROD2.0|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data",19342,Monday,0,1.0,End to End,0.0,1,0.0,26,7,0,1,,2.1
+9343,ICGS,Pass,Fail,7/28/2018,UAT2.0|fun(20)|arguments undefined in function|pass by value ,19344,Wednesday,0,1.0,login,0.0,1,0.0,28,7,0,4,,2.1
+9344,ICGS,210,Fail,7/29/2018,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",19345,Thursday,0,1.0,Cart Updation,0.0,1,0.0,29,7,0,2,,2.1
+9345,ICGS,211,Fail,7/30/2018,"DEV2.0|print(data.[""Name""])|No column named ""Name""|retrive data",19346,Friday,0,3.0,Tag,0.0,3,0.0,30,7,0,3,,2.1
+9347,ICGS,Pass,Fail,8/1/2018,"STG2.0|for i,j in range()|range expected 1 arguments|parsing",19348,Sunday,0,4.0,Custom Badging,0.0,4,0.0,1,8,0,5,,2.1
+9348,ICGS,214,Fail,8/2/2018,STG2.0| if i>5 |SyntaxError: invalid syntax |decision control,19349,Monday,0,1.0,Badging,0.0,1,0.0,2,8,0,9,,2.1
+9350,ICGS,216,Fail,8/4/2018,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",19351,Wednesday,0,1.0,Promo,0.0,1,0.0,4,8,0,8,,2.1
+9351,ICGS,Pass,Fail,8/5/2018,PROD2.0|import seaborn as sns|seaborn: Package not found|Coloring,19352,Thursday,0,1.0,Unsubscribe,0.0,1,0.0,5,8,0,10,,2.1
+9352,ICGS,218,Fail,8/6/2018,DEV2.0|df.read_csv(...)|file not found|Importing file,19353,Friday,0,3.0,Subscribe,0.0,3,0.0,6,8,0,6,,2.1
+9354,ICGS,Pass,Fail,8/8/2018,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",19355,Sunday,0,4.0,Badging,0.0,4,0.0,8,8,0,9,,2.1
+9355,ICGS,Pass,Fail,8/9/2018,"DEV2.0|plt.plot(x,y)|x,y : undefined variables|plotting",19356,Monday,0,1.0,Cart Updation,0.0,1,0.0,9,8,0,2,,2.1
+9357,ICGS,Pass,Fail,8/11/2018,PROD2.0|import numpy as np|numpy: Package not found|importing,19358,Wednesday,0,1.0,End to End,0.0,1,0.0,11,8,0,1,,2.1
+9360,ICGS,Pass,Fail,8/14/2018,DEV2.0|print(df.columns)|df: undefined dataframe|retrive data,19361,Saturday,0,3.0,Badging,0.0,3,0.0,14,8,0,9,,2.1
+9361,ICGS,Pass,Fail,8/15/2018,DEV2.0|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data,19362,Sunday,0,4.0,Cart Updation,0.0,4,0.0,15,8,0,2,,2.1
+9362,ICGS,228,Fail,8/16/2018,PROD2.0|import seaborn as sns|seaborn: Package not found|Coloring,19363,Monday,0,1.0,End to End,0.0,1,0.0,16,8,0,1,,2.1
+9364,ICGS,230,Fail,8/18/2018,STG2.0| if i>5 |SyntaxError: invalid syntax |decision control,19365,Wednesday,0,1.0,Promo,0.0,1,0.0,18,8,0,8,,2.1
+9365,ICGS,231,Fail,8/19/2018,"DEV2.0|plt.plot(x,y)|x,y : undefined variables|plotting",19366,Thursday,0,1.0,login,0.0,1,0.0,19,8,0,4,,2.1
+9366,ICGS,Pass,Fail,8/20/2018,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",19367,Friday,0,3.0,End to End,0.0,3,0.0,20,8,0,1,,2.1
+9371,ICGS,Pass,Fail,8/25/2018,UAT2.0|fun(20)|arguments undefined in function|pass by value ,19372,Wednesday,0,1.0,End to End,0.0,1,0.0,25,8,0,1,,2.1
+9372,ICGS,Pass,Fail,8/26/2018,"DEV2.0| for x,d in data.Height, data.shape[0]| too many values to unpack|looping",19373,Thursday,0,1.0,Badging,0.0,1,0.0,26,8,0,9,,2.1
+9373,ICGS,Pass,Fail,8/27/2018,UAT2.0|import matplotlib.pyplot as plt|matplot: Package not found|importing,19374,Friday,0,3.0,Badging,0.0,3,0.0,27,8,0,9,,2.1
+9374,ICGS,240,Fail,8/28/2018,UAT2.0|import pandas as pd|package not found|importing,19375,Saturday,0,3.0,Subscribe,0.0,3,0.0,28,8,0,6,,2.1
+9375,ICGS,241,Fail,8/29/2018,"DEV2.0| for x,d in data.Height, data.shape[0]| too many values to unpack|looping",19376,Sunday,0,4.0,Promo,0.0,4,0.0,29,8,0,8,,2.1
+9376,ICGS,242,Fail,8/30/2018,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",19377,Monday,0,1.0,Custom Badging,0.0,1,0.0,30,8,0,5,,2.1
+9377,ICGS,243,Fail,8/31/2018,DEV2.0|plt.show()|displaying graph without plotting it|plotting,19378,Tuesday,0,1.0,End to End,0.0,1,0.0,31,8,0,1,,2.1
+9381,ICGS,Pass,Fail,9/4/2018,"STG2.0|for i,j in range()|range expected 1 arguments|parsing",19382,Saturday,0,3.0,End to End,0.0,3,0.0,4,9,0,1,,2.1
+9382,ICGS,Pass,Fail,9/5/2018,STG2.0| if i>5 |SyntaxError: invalid syntax |decision control,19383,Sunday,0,4.0,login,0.0,4,0.0,5,9,0,4,,2.1
+9383,ICGS,249,Fail,9/6/2018,UAT2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise,19384,Monday,0,1.0,Subscribe,0.0,1,0.0,6,9,0,6,,2.1
+9384,ICGS,250,Fail,9/7/2018,"DEV2.0|print(""sum is"",a+b)|No varibles named a and b|retrive data",19385,Tuesday,0,1.0,Register,0.0,1,0.0,7,9,0,7,,2.1
+9385,ICGS,251,Fail,9/8/2018,DEV2.0|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming,19386,Wednesday,0,1.0,Subscribe,0.0,1,0.0,8,9,0,6,,2.1
+9386,ICGS,Pass,Fail,9/9/2018,STG2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|importing,19387,Thursday,0,1.0,login,0.0,1,0.0,9,9,0,4,,2.1
+9390,ICGS,256,Fail,9/13/2018,UAT2.0|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise,19391,Monday,0,1.0,Register,0.0,1,0.0,13,9,0,7,,2.1
+9392,ICGS,Pass,Fail,9/15/2018,"PROD2.0| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly",19393,Wednesday,0,1.0,End to End,0.0,1,0.0,15,9,0,1,,2.1
+9393,ICGS,Pass,Fail,9/16/2018,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",19394,Thursday,0,1.0,Badging,0.0,1,0.0,16,9,0,9,,2.1
+9394,ICGS,260,Fail,9/17/2018,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",19395,Friday,0,3.0,Custom Badging,0.0,3,0.0,17,9,0,5,,2.1
+9395,ICGS,261,Fail,9/18/2018,"DEV2.0| for x,d in data.Height, data.shape[0]| too many values to unpack|looping",19396,Saturday,0,3.0,Badging,0.0,3,0.0,18,9,0,9,,2.1
+9396,ICGS,Pass,Fail,9/19/2018,DEV2.0|plt.show()|plt:undefined name|displaying,19397,Sunday,0,4.0,Subscribe,0.0,4,0.0,19,9,0,6,,2.1
+9397,ICGS,263,Fail,9/20/2018,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,19398,Monday,0,1.0,Custom Badging,0.0,1,0.0,20,9,0,5,,2.1
+9400,ICGS,Pass,Fail,9/23/2018,UAT2.0|form.submit(name[0])|Array index out of bounds|Need to specify name,19401,Thursday,0,1.0,Promo,0.0,1,0.0,23,9,0,8,,2.1
+9404,ICGS,270,Fail,9/27/2018,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",19405,Monday,0,1.0,login,0.0,1,0.0,27,9,0,4,,2.1
+9407,ICGS,Pass,Fail,9/30/2018,PROD2.0|import numpy as np|numpy: Package not found|importing,19408,Thursday,0,1.0,Tag,0.0,1,0.0,30,9,0,3,,2.1
+9408,ICGS,Pass,Fail,10/1/2018,UAT2.0|import matplotlib.pyplot as plt|matplot: Package not found|importing,19409,Friday,0,3.0,Promo,0.0,3,0.0,1,10,0,8,,2.1
+9413,ICGS,Pass,Fail,10/6/2018,"DEV2.0|print(""a[10]"")|No varible named a|retrive data",19414,Wednesday,0,1.0,Unsubscribe,0.0,1,0.0,6,10,0,10,,2.1
+9415,ICGS,281,Fail,10/8/2018,"STG2.0|for i,j in range()|range expected 1 arguments|parsing",19416,Friday,0,3.0,Tag,0.0,3,0.0,8,10,0,3,,2.1
+9419,ICGS,Pass,Fail,10/12/2018,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",19420,Tuesday,0,1.0,End to End,0.0,1,0.0,12,10,0,1,,2.1
+9422,ICGS,Pass,Fail,10/15/2018,PROD2.0|Not compatible with IOS 13|Update not found|Updating,19423,Friday,0,3.0,Tag,0.0,3,0.0,15,10,0,3,,2.1
+9423,ICGS,289,Fail,10/16/2018,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",19424,Saturday,0,3.0,Badging,0.0,3,0.0,16,10,0,9,,2.1
+9424,ICGS,290,Fail,10/17/2018,UAT2.0|import pandasa as pd|pandas: Package not found|importing,19425,Sunday,0,4.0,login,0.0,4,0.0,17,10,0,4,,2.1
+9426,ICGS,292,Fail,10/19/2018,UAT2.0|fun(20)|arguments undefined in function|pass by value ,19427,Tuesday,0,1.0,Cart Updation,0.0,1,0.0,19,10,0,2,,2.1
+9429,ICGS,Pass,Fail,10/22/2018,"DEV2.0|print(data.[""Name""])|No column named ""Name""|retrive data",19430,Friday,0,3.0,Badging,0.0,3,0.0,22,10,0,9,,2.1
+9430,ICGS,Pass,Fail,10/23/2018,DEV2.0|plt.show()|displaying graph without plotting it|plotting,19431,Saturday,0,3.0,login,0.0,3,0.0,23,10,0,4,,2.1
+9435,ICGS,301,Fail,10/28/2018,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",19436,Thursday,0,1.0,Badging,0.0,1,0.0,28,10,0,9,,2.1
+9436,ICGS,Pass,Fail,10/29/2018,UAT2.0|import matplotlib as plt|matplotlib: Package not found|importing,19437,Friday,0,3.0,Custom Badging,0.0,3,0.0,29,10,0,5,,2.1
+9438,ICGS,304,Fail,10/31/2018,"UAT2.0|return func(*args, **kw)|InterruptedError|Handle Interrupt Error",19439,Sunday,Haloween,8.0,End to End,0.0,4,4.0,31,10,0,1,,2.1
+9439,ICGS,Pass,Fail,11/1/2018,"UAT2.0| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading",19440,Monday,0,1.0,Subscribe,0.0,1,0.0,1,11,0,6,,2.1
+9440,ICGS,306,Fail,11/2/2018,PROD2.0|Not compatible with IOS 13|Update not found|Updating,19441,Tuesday,0,1.0,Register,0.0,1,0.0,2,11,0,7,,2.1
+9441,ICGS,307,Fail,11/3/2018,PROD2.0|import seaborn as sns|seaborn: Package not found|Coloring,19442,Wednesday,0,1.0,Tag,0.0,1,0.0,3,11,0,3,,2.1
+9445,ICGS,311,Fail,11/7/2018,"PROD2.0|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data",19446,Sunday,0,4.0,login,0.0,4,0.0,7,11,0,4,,2.1
+9447,ICGS,Pass,Fail,11/9/2018,UAT2.0|import pandasa as pd|pandas: Package not found|importing,19448,Tuesday,0,1.0,End to End,0.0,1,0.0,9,11,0,1,,2.1
+9448,ICGS,314,Fail,11/10/2018,"DEV2.0| print ""Ok""|Missing parentheses in call to 'print'| printing",19449,Wednesday,0,1.0,Custom Badging,0.0,1,0.0,10,11,0,5,,2.1
+9450,ICGS,316,Fail,11/12/2018,UAT2.0|form.submit(name[0])|Array index out of bounds|Need to specify name,19451,Friday,0,3.0,Custom Badging,0.0,3,0.0,12,11,0,5,,2.1
+9451,ICGS,317,Fail,11/13/2018,STG2.0|for x in range(10)|List out of index [15]|looping,19452,Saturday,0,3.0,login,0.0,3,0.0,13,11,0,4,,2.1
+9454,ICGS,320,Fail,11/16/2018,UAT2.0|import pandasa as pd|pandas: Package not found|importing,19455,Tuesday,0,1.0,Cart Updation,0.0,1,0.0,16,11,0,2,,2.1
+9456,ICGS,Pass,Fail,11/18/2018,DEV2.0|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data,19457,Thursday,0,1.0,Unsubscribe,0.0,1,0.0,18,11,0,10,,2.1
+9460,ICGS,Pass,Fail,11/22/2018,DEV2.0|df.read_csv(...)|file not found|Importing file,19461,Monday,0,1.0,Tag,0.0,1,0.0,22,11,0,3,,2.1
+9463,ICGS,Pass,Fail,11/25/2018,STG2.0| if i>5 |SyntaxError: invalid syntax |decision control,19464,Thursday,Thanksgiving Week,7.0,login,0.0,1,6.0,25,11,0,4,,2.1
+9467,ICGS,333,Fail,11/29/2018,UAT2.0|form.submit(name[0])|Array index out of bounds|Need to specify name,19468,Monday,Thanksgiving Week,7.0,Badging,0.0,1,6.0,29,11,0,9,,2.1
+9468,ICGS,334,Fail,11/30/2018,"STG2.0|for i in range(0,2)|List out of Index [23]|looping",19469,Tuesday,0,1.0,Unsubscribe,0.0,1,0.0,30,11,0,10,,2.1
+9470,ICGS,336,Fail,12/2/2018,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",19471,Thursday,0,1.0,Badging,0.0,1,0.0,2,12,0,9,,2.1
+9471,ICGS,337,Fail,12/3/2018,DEV2.0|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data,19472,Friday,0,3.0,Promo,0.0,3,0.0,3,12,0,8,,2.1
+9472,ICGS,Pass,Fail,12/4/2018,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",19473,Saturday,0,3.0,Badging,0.0,3,0.0,4,12,0,9,,2.1
+9478,ICGS,Pass,Fail,12/10/2018,DEV2.0|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data,19479,Friday,0,3.0,Custom Badging,0.0,3,0.0,10,12,0,5,,2.1
+9479,ICGS,345,Fail,12/11/2018,DEV2.0|print(df.columns)|df: undefined dataframe|retrive data,19480,Saturday,0,3.0,Cart Updation,0.0,3,0.0,11,12,0,2,,2.1
+9480,ICGS,Pass,Fail,12/12/2018,UAT2.0|import pandasa as pd|pandasa: Package not found|importing,19481,Sunday,0,4.0,End to End,0.0,4,0.0,12,12,0,1,,2.1
+9482,ICGS,348,Fail,12/14/2018,DEV2.0|import seaborn as sns|seaborn: package not found|importing,19483,Tuesday,0,1.0,Subscribe,0.0,1,0.0,14,12,0,6,,2.1
+9483,ICGS,Pass,Fail,12/15/2018,"DEV2.0|plt.plot(x,y)|x,y : undefined variables|plotting",19484,Wednesday,0,1.0,End to End,0.0,1,0.0,15,12,0,1,,2.1
+9486,ICGS,Pass,Fail,12/18/2018,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",19487,Saturday,0,3.0,Subscribe,0.0,3,0.0,18,12,0,6,,2.1
+9490,ICGS,356,Fail,12/22/2018,DEV2.0|print(df.columns)|df: undefined dataframe|retrive data,19491,Wednesday,0,1.0,Badging,0.0,1,0.0,22,12,0,9,,2.1
+9493,ICGS,359,Fail,12/25/2018,"STG2.0|print(data[""Weight""].std())|column doesnot exist|standard variations",19494,Saturday,Christmas,9.0,Badging,0.0,3,6.0,25,12,0,9,,2.1
+9494,ICGS,Pass,Fail,12/26/2018,"PROD2.0|import plotly|The plotly.plotly module is deprecated,|importing",19495,Sunday,0,4.0,Custom Badging,0.0,4,0.0,26,12,0,5,,2.1
